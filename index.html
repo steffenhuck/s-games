@@ -17,6 +17,7 @@
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
+  html, body { overflow-x: hidden; max-width: 100%; }
   body {
     margin: 0;
     background: var(--yellow);
@@ -108,7 +109,7 @@
     width: 1.6em;
     text-align: center;
   }
-  .body { flex: 1 1 auto; }
+  .body { flex: 1 1 auto; min-width: 0; }
   .title {
     display: block;
     font-family: "Archivo Black", sans-serif;
