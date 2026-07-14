@@ -17,7 +17,6 @@
   }
   * { box-sizing: border-box; }
   html { -webkit-text-size-adjust: 100%; }
-  html, body { overflow-x: hidden; max-width: 100%; }
   body {
     margin: 0;
     background: var(--yellow);
@@ -44,11 +43,12 @@
   }
   h1 {
     font-family: "Archivo Black", "Archivo", sans-serif;
-    font-size: clamp(3.2rem, 14vw, 6rem);
+    font-size: clamp(2rem, 12vw, 6rem);
     line-height: 0.92;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.03em;
     margin: 0;
     text-transform: uppercase;
+    overflow-wrap: break-word;
   }
   .lede {
     font-size: 1.15rem;
